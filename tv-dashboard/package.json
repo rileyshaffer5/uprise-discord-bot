@@ -1,0 +1,14 @@
+{
+  "name": "uprise-tv-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Uprise Financial TV dashboard — read-only live leaderboards served from the Discord bot's uprise.sqlite.",
+  "scripts": {
+    "start": "node railway-start.mjs",
+    "start:dashboard-only": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
